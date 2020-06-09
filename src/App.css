@@ -1,0 +1,38 @@
+.nav-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.nav-link:hover {
+	color: inherit;
+}
+
+Button:focus {
+	outline: none !important;
+}
+button:focus {
+	outline: none !important;
+}
+
+button.owl-dot {
+	display: none !important;
+}
+
+.owl-prev {
+	width: 120px !important;
+	height: 45px !important;
+	transition: all .3s !important;
+}
+
+.owl-next {
+	width: 120px !important;
+	height: 45px !important;
+	transition: all .3s !important;
+}
+
+span[aria-label="Previous"] {
+	font-size: 2em !important;
+}
+span[aria-label="Next"] {
+	font-size: 2em !important;
+}

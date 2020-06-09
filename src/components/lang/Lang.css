@@ -1,0 +1,8 @@
+.flag {
+	transition: all .4s;
+	cursor: pointer;
+}
+
+.flag:hover {
+	transform: scale(.9);
+}

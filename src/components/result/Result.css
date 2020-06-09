@@ -1,0 +1,43 @@
+.result-btn {
+	width: 260px;
+	height: 40px;
+	background: rgb(130, 106, 207);
+	color: white;
+	transition: all .4s;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	margin-top: .6em;
+}
+
+.result-btn:hover {
+	box-shadow: 0 0 20px rgb(103, 84, 167);
+}
+.result-btn:focus {
+	outline: none;
+}
+
+@media only screen and (min-width: 767px) {
+	.result-btn {
+		width: 320px;
+		height: 40px;
+		margin-top: 1em;
+	}
+}
+
+.overflow {
+	overflow-y: scroll;
+}
+
+.line {
+	width: 100%;
+	background: rgb(212, 212, 212);
+	height: .5px;
+	opacity: .4;
+}
+
+@media only screen and (max-width: 414px) {
+	.mobile {
+		font-size: 1em;
+	}
+}

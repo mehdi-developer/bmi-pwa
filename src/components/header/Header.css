@@ -1,0 +1,37 @@
+.header {
+	height: 65px;
+}
+
+.logo {
+	width: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+	.logo {
+		width: 30px;
+	}
+	.logo-text {
+		font-size: 1.6em;
+	}
+}
+
+.logo-text {
+	font-size: 2em;
+}
+
+.about-logo {
+	cursor: pointer;
+}
+
+.darkmode-logo {
+	cursor: pointer;
+}
+
+.main-logo {
+	text-decoration: none;
+}
+
+.dark {
+	background: rgb(77, 77, 77) !important;
+	color: white !important;
+}
