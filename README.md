@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+To see the demo please checkout 
+https://bmipwa.github.io/
+
 ## Available Scripts
 
 In the project directory, you can run:
